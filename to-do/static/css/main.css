@@ -1,0 +1,124 @@
+body, html {
+  
+    font-family: "roboto";
+    background-color:slategrey;
+	max-width: 500px;
+	margin: auto;
+ 
+}
+h1,h4,h5,p {
+	color: #E6E6FA;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.content {
+	margin: auto;
+    width: 400px;
+
+}
+tr:hover{
+	background-color: gray;
+	}
+tr {
+	background-color: lightgray;
+	}
+table, td, th {
+    border: 1px black solid;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+th {
+    height: 30px;
+	padding: 10px;
+	border-bottom: 1px solid black;
+	background-color: gray;
+	color: white;
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+	border-bottom: 1px solid black;
+}
+
+.form {
+    margin-top: 20px;
+    
+        
+    
+}
+
+#content {
+    width: 80%;
+    
+}
+.form input[type="text"] {
+	border-bottom-color: #b3b3b3;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-left-color: #b3b3b3;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: #b3b3b3;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-color: #b3b3b3;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-top-style: solid;
+	border-top-width: 1px;
+  border-width: thick;
+	height: 30px;
+	padding-left: 10px;
+}
+
+.form input[type="submit"] {
+   
+	color:#FFFFFF;
+	background-color:#5d9cec;
+	border-color:#5899eb;
+	 text-align:end; 
+	 margin-top: 20px; 
+	cursor:pointer; 
+	border:1px solid transparent; 
+	padding:6px 16px; 
+	font-size:14px; 
+	border-radius:4px; 
+  
+ 
+  Float: right;
+  }
+  /* .strike {
+	text-decoration: line-through;
+  } */
+.check-with-label:checked + .label-for-check {
+	text-decoration: line-through;
+}
+input[type=checkbox],
+input[type=radio] {
+  vertical-align: middle;
+  position: relative;
+  bottom: 0px;
+}
+input[type=radio] {
+  bottom: 20px;
+}
+
+.btn-text-right{
+	margin-left: 260px;
+	text-align: left;
+	position: absolute;
+}
